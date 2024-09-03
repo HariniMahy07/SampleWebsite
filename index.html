@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>www.jaihind.edu</title>
+  <style>
+    *{
+		padding:0px;
+		margin:0px;	
+	}
+	body,html{
+		font-family:Roboto,sans-serif,arial;
+		background:#f0f3fa;
+	}
+	.width-100
+	{
+		width:100%;
+		float:left;
+	}
+	.container
+	{
+		width:1275px;
+		margin:0px auto;
+	}
+	.news-list
+	{
+		background:#fff;
+		color:red;
+		padding:6px;
+		font-size:20px;
+	}
+	.headquote
+	{
+		font-size:18px;
+		color:#fff;
+ 	 	width:100%;
+	}
+	.header-menu
+	{
+  		position: relative;
+ 		box-shadow: 0px 2px 5px 0px #00000036;
+	}
+	.logo
+	{
+		width: fit-content;
+    	float: left;
+	}
+	.main-menu
+	{
+		list-style: none;
+    	float: right;
+    	margin-top: 20px;
+	}
+	.main-menu a
+	{
+		font-weight: 500;
+    	color: #3a3a3a;
+    	font-size: 20px;
+    	text-decoration: none;
+	}
+	.main-menu li
+	{
+		float:left;
+		padding:12px 15px;
+	}
+	.slider-width
+	{
+		width:100%;
+		height:500px;
+	}
+	.margin-top-50
+	{
+		margin-top:50px;
+	}
+	.width-33
+	{
+		width:33%;
+		float:left;
+	}
+	.latest-news
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+	}
+	.heading-sect
+	{
+		width:100%;
+		float:left;
+		border-bottom:1px solid #cfcfcf;
+		padding-bottom:0px;
+		margin:0px;
+		margin-bottom:15px;
+		padding-top:15px;
+		border:1px solid #cfcfcf;
+		padding-left:15px;
+		background:#00aed9;
+		color:white;
+	} 
+	.head-title
+	{
+		margin:0px;
+		padding:0px;
+		font-size:16px;
+		font-weight:600;
+		color:white;
+		padding-bottom:5px;
+	}
+	.latest-news-ul
+	{
+		padding:0px;
+		list-style:none;
+		line-height:40px;
+	}
+	.event-list
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+		
+	}
+	.upcoming-event-list
+	{
+		padding:0px;
+		list-style:none;
+	}
+	.upcoming-event-list li
+	{
+		width:100%;
+		float:left;
+		margin-bottom:15px;
+	}
+	.event-date
+	{
+		background:#03a9f4;
+		width:30px;
+		float:left;
+		text-align:center;
+		font-size:14px;
+		color:white;
+		padding:8px;
+		margin-right:10px;
+	}
+	.notice-board
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+	}
+	.notice-board-list
+	{
+		padding:0px;
+		list-style:none;
+		line-height:40px;
+	}
+	.notice-board-list li
+	{
+		width:100%;
+		float:left;
+		margin-bottom:15px;
+	}
+	.our-principal
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+	}
+	.useful-inf0-ul
+	{
+		list-style:none;
+	}
+	.useful-info-ul li
+	{
+		margin-bottom:15px;
+		border-bottom:1.5px solid #d7d7d7;
+		padding-bottom:15px;
+	}
+	.useful-info-ul a
+	{
+		text-decoration:none;
+		color:black;
+		font-weight:bold;
+	}
+	.gov-sec-style
+	{
+		margin-bottom:30px;
+		border-bottom:1px solid #d7d7d7;
+		padding-bottom:30px;
+	}
+	.governor-name
+	{
+		font-size:16px;
+		color:black;
+		font-weight:bold;
+		padding-left:10px;
+		margin-top:20px;
+	}
+	.governor-designation
+	{
+		font-size:15px;
+		color:black;
+		padding-left:10px;
+		margin-top:6px;
+	}
+	.governor-img
+	{
+		width:100%;
+	}
+	.width-40
+	{
+		width:40%;
+		float:left;
+	}
+	.width-60
+	{
+		width:60%;
+		float:left;
+	}
+	.about-us
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+	}
+	.ourteam
+	{
+		margin-left:10px;
+		margin-right:10px;
+		background:white;
+		padding:20px;
+		height:350px;
+		margin-bottom:30px;
+	}
+	.gallery-head-style
+	{
+		font-size:28px;
+		color:#4b4848;
+		margin-bottom:5px;
+		background:white;
+		padding:2px 0px;
+	}
+	.width-25
+	{
+		width:25%;
+		float:left;
+	}
+	.gallery-img
+	{
+		height:250px;
+		width:auto;
+
+	}
+	.footer
+	{
+		background:#232f30;
+		padding:50px 0px;
+	}
+	.quicklink-heading
+	{
+		font-size:18px;
+		font-weight:bold;
+		color:#fff;
+		margin-bottom:10px;
+	}
+	.quicklink-menu
+	{
+		list-style:none;
+		padding-left:10px;
+	}
+	.quicklink-menu li a
+	{
+		color:#fff;
+		line-height:2.5;
+		font-size:15px;
+		text-decoration:none;
+	}
+	.get-in-touch
+	{
+		list-style:none;
+		padding-left:10px;
+	}
+	.get-in-touch li i
+	{
+		color:#ed372c;
+		font-size:20px;
+	}
+	.get-in-touch li
+	{
+		color:#fff;
+		line-height:2.5;
+		font-size:15px;
+		text-decoration:none;
+	}
+	.footer-email
+	{
+		font-size:15px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+	}
+	.footer-website
+	{
+		font-size:12px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+	}
+	.social-media
+	{
+		list-style:none;
+		margin-top:10px;
+	}
+	.social-media li
+	{
+		float:left;
+		padding:0px 8px;	
+	}
+	.social-media li a img
+	{
+		width:30px;
+	}
+	.footer2-bacbor
+	{
+		background:#232f3e;
+		padding:10px 0px;
+		border-top:1px solid #898989;
+	}
+	.footer2-content
+	{
+		font-size:14px;
+		color:#fff;
+		text-align:center;
+	}
+  </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="width-100 top-header">
+<div class="container">
+<div class="width-100">
+<div class="top-header">
+<div class="news-list">
+<div class="headquote">
+  <p style="background-color:#2196f3; display:flex; align-items:center; padding:5px; box-sizing:border-box;" >
+    <b style="color:red; background-color:white;border:2px solid black; padding: 10px;margin-right:10px; display: inline-block;z-index:2;position:relative;" class=""news-list>NEWS:</b>
+    <marquee style="width:100%;overflow:hidden;white-space:nowrap; flex-grow:1;position:relative;display:inline-block;animation:scroll-left 10s linear infinte;position:absolute;right:0"class="headquote">Jaihind Matric. Hr. Sec. School : Classy Education for the Modern Child!</marquee>
+  </p> 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="width-100 header-menu"></div>
+<div class="container">
+<div class="logo"><img src="images\logo.png" alt="School Logo" width="200px" height="100px"></div>    
+<ul class="main-menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Academics</a></li>
+<li><a href="#">Admission</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Notice Board</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+<div class="width-100">
+<img class="slider-width" src="images\school .jpg"  >
+</div>
+
+<div class="width-100 margin-top-50">
+<div class="container">
+<div class="width-33">
+<div class="latest-news">
+<div class="heading-sect">
+<h3 class="head-title">Latest News</h3>
+</div>
+<marquee direction="up">
+<ul class="latest-news-ul">
+<li>1.Admission opens on June 01</li>
+<li>2.Classes for X,XII on June 01</li>
+<li>3.Classes for VI to IX on June 03</li>
+<li>4.Classes for II to V on June 05</li>
+<li>5.Classes for UKG,I,XI on June 08</li>
+<li>6.Classes for LKG on June 10</li>
+<li>7.RTE available for LKG students</li>
+<li>8.Admission for LKG to XII</li>
+</ul>
+</marquee>
+</div>
+</div>
+</div>
+
+<div class="width-33">
+<div class="event-list">
+<div class="heading-sect">
+<h3 class="head-title">Upcoming Events</h3>
+</div>
+<ul class="upcoming-event-list">
+<li><span class="event-date">15<br>Aug</span><span>Independance Day for our nation.</span></li>
+<li><span class="event-date">05<br>Sept</span><span>Teacher's Day special for our teachers.</span></li>
+<li><span class="event-date">30<br>Oct</span><span>Sport's Day for youngsters.</span></li>
+<li><span class="event-date">14<br>Nov</span><span>Children's Day on rememberance of Nehru</span></li>
+<li><span class="event-date">14<br>Mar</span><span>Annual Day Celebration for talents</span></li>
+</ul>
+</div>
+</div>
+
+<div class="width-33">
+<div class="notice-board">
+<div class="heading-sect">
+<h3 class="head-title">Notice Board</h3>
+</div>
+<ul class="notice-board-list">
+<li><img src="images\noticeboard.png" width="25px" height="25px"> Everyone should speak only in English inside the school campus.</li>
+<li><img src="images\noticeboard.png" width="25px" height="25px"> Don't waste water and food.</li>
+<li><img src="images\noticeboard.png" width="25px" height="25px"> Give respect to elders.</li>
+<li><img src="images\noticeboard.png" width="25px" height="25px"> Everyone should follow the rules and regulations of the school inside the school campus.</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="width-100 margin-top-50">
+<div class="container">
+<div class="width-33">
+<div class="our-principal">
+<div class="heading-sect">
+<h3 class="head-title">Useful Information</h3>
+</div>
+<ul class="useful-info-ul">
+<li><img src="images\service.png" width="25px" height="25px"> <a href="#">Online Service</a></li>
+<li><img src="images\result.png" width="25px" height="25px"> <a href="#">Online Results</a></li>
+<li><img src="images\tt.png" width="25px" height="25px"> <a href="#">Exam Schedule</a></li>
+<li><img src="images\clstt.png" width="25px" height="25px"> <a href="#">Class Timetable</a></li>
+</ul>
+</div>
+</div>
+
+<div class="width-33">
+<div class="about-us">
+<div class="heading-sect">
+<h3 class="head-title">About Us</h3>
+</div>
+
+<div class="width-100 gov-sec-style">
+<div class="width-40">
+<img class="governor-img" src="images\princ.jpg">
+</div>
+<div class="width-60">
+<p class="governor-name">Mrs. S.Suguna Balasubramanian</p>
+<p class="governor-designation">Principal,JMHSS</p>
+</div>
+</div>
+<div class="width-40">
+<img class="governor-img" src="images\corres.jpg">
+</div>
+<div class="width-60">
+<p class="governor-name">Mr. M.Balasubramanian</p>
+<p class="governor-designation">Correspondent,JMHSS</p>
+</div>
+</div>
+</div>
+<div class="width-33">
+<div class="ourteam">
+<div class="heading-sect">
+<h3 class="head-title">Our Pride</h3>
+</div>
+<img src="images\ourteam.jpg" class="width-100">
+</div>
+</div>
+</div>
+</div>
+
+<div class="width-100 margin-top 50">
+<div class="container">
+<h3 class="gallery-head-style">Gallery</h3>
+<div class="width-25"><img src="images\pic2.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic1.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic7.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic3.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic4.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic6.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic7.jpg" class="gallery-img"></div>
+<div class="width-25"><img src="images\pic8.jpg" class="gallery-img"></div>
+</div>
+</div>
+
+<div class="width-100 margin-top-50 footer">
+<div class="container">
+<div class="width-25">
+<h2 class="quicklink-heading">Quick Links</h2>
+<ul class="quicklink-menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="width-25">
+<h2 class="quicklink-heading">Student Section</h2>
+<ul class="quicklink-menu">
+<li><a href="#">Result</a></li>
+<li><a href="#">Pay fees</a></li>
+</ul>
+</div>
+
+<div class="width-25">
+<h2 class="quicklink-heading">Information Links</h2>
+<ul class="quicklink-menu">
+<li><a href="#">News</a></li>
+<li><a href="#">Admission</a></li>
+</ul>
+</div>
+			
+
+<div class="width-25">
+<h2 class="quicklink-heading">Get In Touch</h2>
+<ul class="get-in-touch">
+<li><i class="fa fa-envelope"></i>E-MAIL:<a href="#" class="footer-e-mail">info@jaihind.com</a></li>
+<li><i class="fa fa-whatsapp"></i>WHATS-APP:+91-1234567890</li>
+<li><i class="fa fa-phone"></i>CONTACT NO.:04363 237999</li>
+<li><i class="fa fa-globe"></i>WEBSITE:<a href="#" class="footer-website">https://www.jaihind.com</a></li>
+</ul>
+<ul class="social-media">
+<li><a href="#"><img src="images\fb.png" width="25px" height="25px"></a></li>
+<li><a href="#"><img src="images\lk.png" width="25px" height="25px"></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="width-100 footer2-bacbor">
+<p class="footer2-content">Copyright @ 2024, jaihind.com All rights are reserved.</p>
+</div>
+</body>
+<html>
+
